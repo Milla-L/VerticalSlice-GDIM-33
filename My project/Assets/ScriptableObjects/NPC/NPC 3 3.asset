@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dea312ef7c32d4eb187fb3bfcb1d28, type: 3}
   m_Name: NPC 3 3
   m_EditorClassIdentifier: 
-  Line: Dialogue 3 1
-  ReplyOptions:
-  - line: e
-    nextNode: {fileID: 11400000, guid: 5b215b9c61ad2f3429b59aae6f48671a, type: 2}
-  - line: t
-    nextNode: {fileID: 11400000, guid: a0ba9065a55370a4c95524398a6a4ae1, type: 2}
+  relationship: 1
+  Line: Yes. Yes it is
+  ReplyOptions: []

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dea312ef7c32d4eb187fb3bfcb1d28, type: 3}
   m_Name: NPC 1 2
   m_EditorClassIdentifier: 
-  Line: Dialogue 2 2
+  relationship: 0
+  Line: My little neck of the woods, so to speak
   ReplyOptions:
-  - line: 3 3
+  - line: Really, so this is yours.
     nextNode: {fileID: 11400000, guid: 8d6265c569df51041ab1c275d59e2cec, type: 2}
-  - line: 3 4
+  - line: Oh that's cool
     nextNode: {fileID: 11400000, guid: ad108e74f9ed3ae4ba67c144cae66de3, type: 2}

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dea312ef7c32d4eb187fb3bfcb1d28, type: 3}
   m_Name: NPC 1 1
   m_EditorClassIdentifier: 
-  Line: Dialogue 2 1
+  relationship: 1
+  Line: 'Accusational aren''t we? Don''t worry about it. '
   ReplyOptions:
-  - line: 3 1
+  - line: 'You''re in my head. '
     nextNode: {fileID: 11400000, guid: c9dbaff50bbd6a74f8705cf8ca44e141, type: 2}
-  - line: 3 2
+  - line: 'Fine whatever. '
     nextNode: {fileID: 11400000, guid: 4c4c34be4f2ba3f469810f33345957fc, type: 2}

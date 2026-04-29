@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DialogueLine", menuName = "ScriptableObjects/DialogueLine", order = 1)]
 public class DialogueNode : ScriptableObject
 {
+    public float relationship;
     //---------------------------------------------------------------------
     // Variables
     //---------------------------------------------------------------------
