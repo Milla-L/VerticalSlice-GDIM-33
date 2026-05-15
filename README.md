@@ -19,3 +19,13 @@ My complicating game feature for this milestone is making new events occur based
 3. I will edit my state machine to set up a different transition for each.
 - Arrange the states to call on the new events
 - Make sure the states call properly according to the frienship variable constraint
+
+### Task Breakdown After Coding
+The task breakdown was very useful for getting stuff done. It gave me a basic guideline of what to do and in what order so that I was kept in relative order and helped guide along my thoughts on what needed to happen and when. I would do something like this again where I make a general to do list and stuck to it. 
+
+### Visual Script Graph
+I hook my C# dialogue script up to a lot of my visual scripts. My most evident/expansive one is the one which controls my player dialogue and increase and decrease of the Friendship variable. This is the main big graph and it all stems from that one C# New Dialogue Event script. This serves as the key architecture in my game because it is what both progresses the dialogue through its motions and transforms the main variable in the game so that the Friendship variable can change and cause the new ending in the cliff following along all the left most options. The graph below clearly calls on that custom event to then branch off of to be interactable to the player. 
+<img width="1798" height="1292" alt="C# Custom Event to Script Graph" src="https://github.com/user-attachments/assets/52b4828d-0481-41d9-b08c-51b34d2c31fe" />
+
+### Unity Feature
+The Unity feature that I would like graded are the Scriptable Objects. They are the key factors in my game and, because I am doing a visual novel, are the largest and most expansive components with three layers of dialogue for all pathways and four layers for two of the third layer dialogue choices. I have an alternate event that happens based on the dialogue options and friendship level of the player that occurs on one of these pathways which to get is as simple as choosing all of the left-most buttons to then give an alternate end to the rest of the options. 
