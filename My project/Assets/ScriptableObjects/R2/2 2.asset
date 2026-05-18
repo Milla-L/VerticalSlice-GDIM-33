@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dea312ef7c32d4eb187fb3bfcb1d28, type: 3}
+  m_Name: 2 2
+  m_EditorClassIdentifier: 
+  relationship: 0
+  Line: Glad to see you're getting the spirit
+  ReplyOptions:
+  - line: So what happens from here?
+    nextNode: {fileID: 11400000, guid: b433f0a626e2bb74aa0723d054d2ddaf, type: 2}
+  - line: Yeah sure... "spirit"
+    nextNode: {fileID: 11400000, guid: cf2fd9f901a194b4ca54fcdbae940522, type: 2}

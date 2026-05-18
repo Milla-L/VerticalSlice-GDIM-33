@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dea312ef7c32d4eb187fb3bfcb1d28, type: 3}
+  m_Name: 2 1
+  m_EditorClassIdentifier: 
+  relationship: 1
+  Line: Yes I am and I'll leave if you're not careful
+  ReplyOptions:
+  - line: Fine then. What am I doing here?
+    nextNode: {fileID: 11400000, guid: 21ed82b45858c6e449c28baecefb57d1, type: 2}
+  - line: No. Why are you in my head. Where am I?
+    nextNode: {fileID: 11400000, guid: 3eeba829662f2d64db1a4091833f0806, type: 2}
