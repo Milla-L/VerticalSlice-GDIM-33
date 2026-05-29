@@ -15,4 +15,6 @@ MonoBehaviour:
   relationship: 1
   endIndicator: 0
   Line: How does an idiot get so far lost in the woods they start hearing voices.
-  ReplyOptions: []
+  ReplyOptions:
+  - line: End of Demo
+    nextNode: {fileID: 11400000, guid: cbd652baec3c5f246a4a609d5f7f5f36, type: 2}

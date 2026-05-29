@@ -16,4 +16,6 @@ MonoBehaviour:
   endIndicator: 0
   Line: 'Well who says I even want to be in your head. Only bright side is that it''s
     spacious. '
-  ReplyOptions: []
+  ReplyOptions:
+  - line: End of Demo
+    nextNode: {fileID: 11400000, guid: cbd652baec3c5f246a4a609d5f7f5f36, type: 2}

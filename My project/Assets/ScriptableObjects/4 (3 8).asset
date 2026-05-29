@@ -15,4 +15,6 @@ MonoBehaviour:
   relationship: 0
   endIndicator: 8
   Line: 'Well here ya go. Is it all you''ve ever hoped or what. '
-  ReplyOptions: []
+  ReplyOptions:
+  - line: End of Demo
+    nextNode: {fileID: 11400000, guid: cbd652baec3c5f246a4a609d5f7f5f36, type: 2}

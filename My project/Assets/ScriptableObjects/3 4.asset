@@ -16,4 +16,6 @@ MonoBehaviour:
   endIndicator: 0
   Line: 'Well if you don''t want my stellar commentary then feel free to wander until
     you starve to death. '
-  ReplyOptions: []
+  ReplyOptions:
+  - line: 'Great lets get a move on then. '
+    nextNode: {fileID: 11400000, guid: c66753298012cd84e821fc94744ded6c, type: 2}
