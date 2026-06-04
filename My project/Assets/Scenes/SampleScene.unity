@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 21980575}
   - component: {fileID: 21980576}
   - component: {fileID: 21980577}
+  - component: {fileID: 21980578}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -409,6 +410,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 133a4abde9bdf2142aef751d0a4896da, type: 2}
+--- !u!114 &21980578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21980565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f9f1cd792d1ade543932ccbcaaa54798, type: 2}
 --- !u!1001 &25330414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5950,8 +5967,8 @@ MonoBehaviour:
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 20
-  m_fontSizeMax: 80
+  m_fontSizeMin: 15
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
